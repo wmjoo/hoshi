@@ -782,6 +782,7 @@ with tab_sn_players: # (팀별)개잉 선수기록 탭
         st.dataframe(filtered_cumulative_pitcher_stats, use_container_width = True, hide_index = True)
 
     with tab_sn_players_ai: # AI Report 탭
+        # st.write("📊 Gemini AI Report")
         st.write("본 리포트는 생성형 AI가 작성하였으므로, 구체적인 수치 및 사실관계는 확인이 필요합니다.")
         tab_sn_players_ai_topcol1, tab_sn_players_ai_topcol2 = st.columns([1, 1])
         with tab_sn_players_ai_topcol1:
